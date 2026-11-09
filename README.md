@@ -4,7 +4,7 @@
 
 ## Codex assistance acknowledgment
 
-This project was completed with assistance from **OpenAI Codex**. Codex assisted with environment setup, code implementation and debugging, performance optimization, reproducibility packaging, and report drafting. Max Zhang is the sole listed team member; Codex is acknowledged as an AI assistant, not a human team member or a GitHub co-author.
+This project was completed with assistance from **OpenAI Codex**. Codex assisted with environment setup, code implementation and debugging, performance optimization, reproducibility packaging, and report drafting. Max Zhang is the sole human team member. Codex is credited as an AI contributor through Git's `Co-authored-by` commit metadata; see [contributors](CONTRIBUTORS.md).
 
 A CIFAR-adapted residual network trained from scratch using only the supplied competition data, under a **5,000,000-parameter** limit. The model has **2,797,610 trainable parameters**. No pretrained weights or additional datasets are used.
 
