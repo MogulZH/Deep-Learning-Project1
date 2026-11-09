@@ -1,0 +1,4 @@
+run,experiment,epochs,parameters,best_epoch,validation_accuracy,validation_loss,logged_training_minutes
+resnet_width32,Baseline,100,2797610,98,0.9404,0.21917019424438478,28.120577784379325
+resnet_width32_randaugment_200,RandAugment,200,2797610,200,0.955,0.16125688037872316,81.64515492916107
+resnet_width32_mix_200,RandAugment + Mixup,200,2797610,198,0.9534,0.1996719315290451,74.70945287545523

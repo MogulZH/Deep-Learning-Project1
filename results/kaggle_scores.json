@@ -1,0 +1,12 @@
+{
+  "source": "User-provided Kaggle submissions screenshot",
+  "all_visible_submissions_marked_after_deadline": true,
+  "latest": {"public_score": 0.843, "private_score": 0.828, "local_run": "resnet_width32_mix_200", "tta": "Mean softmax probabilities over original and horizontal-flip views"},
+  "best_visible_public": {"public_score": 0.848, "private_score": 0.831, "local_run": "resnet_width32_randaugment_200", "tta": "Mean softmax probabilities over original and horizontal-flip views"},
+  "other_visible_rows": [
+    {"public_score": 0.830, "private_score": 0.814, "local_run": "resnet_width32_randaugment_200", "tta": "none"},
+    {"public_score": 0.814, "private_score": 0.803},
+    {"public_score": 0.813, "private_score": 0.807}
+  ],
+  "interpretation": "Public and private scores concern different held-out portions. They are not validation accuracy and must not be averaged. Run mapping was confirmed by the author; TTA averaging is present in the saved notebook. Pre-deadline eligibility is not established by the screenshot."
+}

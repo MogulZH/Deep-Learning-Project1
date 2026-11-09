@@ -1,0 +1,8 @@
+{
+  "validation_accuracy": 0.9404,
+  "validation_loss": 0.21917019424438478,
+  "trainable_parameters": 2797610,
+  "best_epoch": 98,
+  "smoke_test": false,
+  "competition_test_accuracy": null
+}

@@ -1,0 +1,13 @@
+{
+  "width": 32,
+  "epochs": 200,
+  "batch_size": 128,
+  "seed": 42,
+  "smoke_test": false,
+  "trainable_parameters": 2797610,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "train_size": 45000,
+  "val_size": 5000
+}
