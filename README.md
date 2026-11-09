@@ -2,6 +2,10 @@
 
 **Max Zhang · yz12020 · Fall 2026**
 
+## Codex assistance acknowledgment
+
+This project was completed with assistance from **OpenAI Codex**. Codex assisted with environment setup, code implementation and debugging, performance optimization, reproducibility packaging, and report drafting. Max Zhang is the sole listed team member; Codex is acknowledged as an AI assistant, not a human team member or a GitHub co-author.
+
 A CIFAR-adapted residual network trained from scratch using only the supplied competition data, under a **5,000,000-parameter** limit. The model has **2,797,610 trainable parameters**. No pretrained weights or additional datasets are used.
 
 - [Executed training notebook](CIFAR10_ResNet_Project.ipynb), including actual epoch logs, plots, parameter count, and validation output
@@ -105,7 +109,7 @@ The executed notebook and result files support the methodology, model architectu
 
 Small historical artifacts and prediction files are retained under `results/`; the shared split indices permit checking the exact data partition. `results/audit.json` records best-checkpoint hashes, recomputed validation, and whether archived CSVs match single-view or flip-TTA inference. Package SHA-256 checksums are in `MANIFEST.sha256`. The archived notebook preserves real execution output; machine-specific output paths were redacted, not replaced by generated training logs.
 
-No multi-seed significance, architecture-width superiority, hidden-test confusion matrix, official rank, or controlled T4-versus-4080 speed claim is made. The earlier speed optimization was tested on a baseline loop and is not a benchmark of the current Mixup loop. AI assistance was used for environment/setup, engineering, reproduction packaging, and drafting; measured results are supported by saved artifacts.
+No multi-seed significance, architecture-width superiority, hidden-test confusion matrix, official rank, or controlled T4-versus-4080 speed claim is made. The earlier speed optimization was tested on a baseline loop and is not a benchmark of the current Mixup loop. The OpenAI Codex assistance is acknowledged above; measured results are supported by saved artifacts.
 
 ## References
 
